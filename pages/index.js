@@ -1,18 +1,10 @@
 export default function Home() {
   return (
-    <div style={{
-      background: "#313338", color: "#dcddde", minHeight: "100vh",
-      display: "flex", alignItems: "center", justifyContent: "center",
-      fontFamily: "'gg sans','Noto Sans',Whitney,'Helvetica Neue',Arial,sans-serif"
-    }}>
+    <div style={{ background: "#0d0f14", minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", color: "#72767d", fontFamily: "sans-serif" }}>
       <div style={{ textAlign: "center" }}>
-        <div style={{ fontSize: 64, marginBottom: 16 }}>🎟️</div>
-        <h1 style={{ color: "#f2f3f5", fontSize: 28, fontWeight: 700, marginBottom: 8 }}>
-          AGF Transcripts
-        </h1>
-        <p style={{ color: "#87898c", fontSize: 16 }}>
-          Ticket transcripts for Anti Gangs Force
-        </p>
+        <img src="https://media.discordapp.net/attachments/1456340538335953133/1466158864184643585/content.png" style={{ width: 80, borderRadius: "50%", marginBottom: 20 }} />
+        <h1 style={{ color: "#fff", marginBottom: 8 }}>AGF Ban Appeal</h1>
+        <p>Use the link provided in your ban DM to access your appeal page.</p>
       </div>
     </div>
   );
